@@ -78,7 +78,7 @@ function recoverSecretFromFile(filePath) {
 
   const secretsMap = new Map();
 
-  // Try all combinations from size `minK` up to totalPoints
+
   for (let size = minK; size <= totalPoints; size++) {
     const combinations = getCombinations(allPoints, size);
 
